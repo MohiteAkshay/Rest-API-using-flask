@@ -4,6 +4,7 @@ You can adapt this file completely to your liking, but it should at least
 contain the root `toctree` directive. -->
 # Welcome to Flaskrestapi’s documentation!
 
+## Introduction
 Flaskrest API is a restful api built on Flask using python. This API can perform CRUD operations
 i.e. Create, Read, Update and Delete. It is linked to a Database which is hosted on MongoDB Atlas
 which consists of details of 5000 products
@@ -20,19 +21,19 @@ classification_l3 : l3 class of product
 classification_l4 : l4 class of product
 url : url of the product
 
-# Deploy the docker container.
+## Deploy the docker container.
 
 Run with Docker
 
 > docker run -it -d -p 5000:5000 flaskapp
 
-# APIs on localhost
+## APIs on localhost
 
 Run an localhost
 
 > [http://localhost:5000/api/products](http://localhost:5000/api/products)
 
-# Perform CRUD operations
+## Perform CRUD operations
 
 Following are the commands to perform CRUD operations
 
@@ -80,7 +81,7 @@ value : value of the key
 element : specification of the product to update/edit
 updateValue : value to update to
 
-# Indices and tables
+## Indices and tables
 
 
 * Index
