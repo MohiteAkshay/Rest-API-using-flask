@@ -44,13 +44,13 @@ http://localhost:5000/api/products
 Following are the commands to perform CRUD operations
 
 
-1. List all the items
+## 1. List all the items
 
 ```bash
 http://localhost:5000/api/products
 ```
 
-2. Query items
+## 2. Query items
 ```bash
 http://localhost:5000/api/<arguments>/<value>
 ```
@@ -58,7 +58,7 @@ arguments : specification of the product
 value : value of the specification    
 
 
-3. Add a new product
+## 3. Add a new product
 ```bash
 http://localhost:5000/api/<name>/<brand_name>/<regular_price_value>/<offer_price_value>/<currency>/<classification_l1>/<classification_l2>/<classification_l3>/<classification_l4>/<url>
 ```
@@ -75,13 +75,13 @@ classification_l4 : l4 class of new product
 url : url of the new product  
 
 
-4. Delete a product
+## 4. Delete a product
 
 ```bash
     http://localhost:5000/api/delete/<argument>/<value>
 ```
 
-5. Update a product
+## 5. Update a product
 ```bash
     http://localhost:5000/api/update/<key>/<value>/<element>/<updateValue>
 ```
