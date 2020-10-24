@@ -63,7 +63,7 @@ value : value of the specification
 http://localhost:5000/api/<name>/<brand_name>/<regular_price_value>/<offer_price_value>/<currency>/<classification_l1>/<classification_l2>/<classification_l3>/<classification_l4>/<url>
 ```
 
-name : Name of the new product
+name : name of the new product  
 brand_name : brand name of the new product  
 regular_price_value : regular price of the new product  
 offer_price_value : offer price value of the new product  
